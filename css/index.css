@@ -1,6 +1,6 @@
 body {
     font-family: Tahoma, Geneva, sans-serif;
-    background: #f2f5f9;
+    background: #fafafa;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,28 +8,44 @@ body {
     height: 650px;
     margin: 0;
 }
-
+.card {
+            background: #b2d9c4;
+            padding: 20px 23.5px;
+            border-radius: 45px;
+            box-shadow: 0 4px 15px rgba(54, 204, 209, 0.1);
+            width: 320px;
+            text-align: center;
+        }
 h1 {
-    color: #ee128b;
+    color: #44916f;
     margin-bottom: 1rem;
 }
 
-.opciones {
-    background: #ffcae7;
-    padding: 10px 13.5px;
-    border-radius: 45px;
-    box-shadow: 0 4px 15px rgba(218, 35, 172, 0.1);
-    width: 320px;
-    text-align: center;
-    margin: 10px 0;
+.indice {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 250px;
+  margin: 20px 40px;
 }
 
-.opciones a {
-    text-decoration: none;
-    color: #d0219a;
-    font-weight: bold;
+.btn {
+  display: block;
+  text-align: center;
+  padding: 12px 70px;
+  background-color: #247d7f;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
-.opciones a:hover {
-    background-color: #ffebf6;
+.btn:hover {
+  background-color: #80b9c8;
+  transform: scale(1.03);
+}
+
+.btn:active {
+  transform: scale(0.98);
 }
