@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de °C a °F</title>
+    <link rel="stylesheet" href="css/ejercicio10.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Convertidor de °C a °F</h1>
+        <form id="convertidor">
+            <div class="campo">
+                <label for="celsius">Temperatura en °C:</label>
+                <input type="number" id="celsius" name="celsius" placeholder="Ej: 25" required>
+            </div>
+            <p class="error" id="mensajeError"></p>
+            <button type="button" onclick="convertir()">Convertir</button>
+            <div class="campo">
+                <label for="fahrenheit">Temperatura en °F:</label>
+                <input type="text" id="fahrenheit" name="fahrenheit" readonly>
+            </div>
+        </form>
+    </div>
+    <script src="js/ejercicio10.js"></script>
+</body>
+</html>

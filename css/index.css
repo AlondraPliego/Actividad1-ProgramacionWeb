@@ -1,0 +1,35 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    background: #f2f5f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    margin: 0;
+}
+
+h1 {
+    color: #ee128b;
+    margin-bottom: 1rem;
+}
+
+.opciones {
+    background: #ffcae7;
+    padding: 10px 13.5px;
+    border-radius: 45px;
+    box-shadow: 0 4px 15px rgba(218, 35, 172, 0.1);
+    width: 320px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.opciones a {
+    text-decoration: none;
+    color: #d0219a;
+    font-weight: bold;
+}
+
+.opciones a:hover {
+    background-color: #ffebf6;
+}
