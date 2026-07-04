@@ -54,9 +54,10 @@ function Calcular() {
     document.getElementById("promedio").value = pmr.toFixed(2);
     let calificacionMaxima = Math.max(...estudiantes.map(e => e.calificacion));
     let calificacionMinima = Math.min(...estudiantes.map(e => e.calificacion));
-  
-    let estudianteAlto = estudiantes.find(e => e.calificacion === calificacionMaxima);
-    document.getElementById("alta").value = estudianteAlto.nombre +" con "+ calificacionMaxima;
-    let estudianteBajo = estudiantes.find(e => e.calificacion === calificacionMinima);
-    document.getElementById("baja").value = estudianteBajo.nombre +" con "+ calificacionMinima;
+    let estudiantesAltos = estudiantes.filter(e => e.calificacion === calificacionMaxima);
+    let nombresAltos = estudiantesAltos.map(e => e.nombre).join(" y ");
+    alta.value = nombresAltos + " con " + calificacionMaxima;
+    let estudiantesBajos = estudiantes.filter(e => e.calificacion === calificacionMinima);
+    let nombresBajos = estudiantesBajos.map(e => e.nombre).join(" y ");
+    baja.value = nombresBajos + " con " + calificacionMinima;
 }
