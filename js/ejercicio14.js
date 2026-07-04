@@ -15,6 +15,11 @@ function Calcular() {
         document.getElementById("cantidades").focus();
         return;
     }
+    if (cantidadesF.some(isNaN)) {
+    mensajeError.textContent = "Todos los valores deben ser números válidos.";
+    document.getElementById("cantidades").focus();
+    return;
+}
 let myr=Math.max(...cantidadesF);
         document.getElementById("mayor").value = myr;
 let mnr=Math.min(...cantidadesF);
