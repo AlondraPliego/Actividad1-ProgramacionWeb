@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votaciones</title>
+    <script src="js/ejercicio13.js"></script>
+    <link rel="stylesheet" href="css/ejercicio13.css">
+</head>
+<body>
+    <div class="card">
+        <h1>¿Puede votar?</h1>
+        <form id="verificador">
+            <div class="campo">
+                <label for="edad">Edad:</label>
+                <input type="number" min="0 "id="edad" name="edad" placeholder="Ej: 10" required>
+            </div>
+            <p class="error" id="mensajeError"></p>
+            <button type="button" onclick="verificar()">Verificar</button>
+            <div class="campo">
+                <label for="resultado">Resultado:</label>
+                <input type="text" id="resultado" name="resultado" readonly>
+            </div>
+        </form>
+    </div>
+</body>

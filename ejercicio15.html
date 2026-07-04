@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desempeño Estudiantil</title>
+    <link rel="stylesheet" href="css/ejercicio15.css">
+    <script src="js/ejercicio15.js"></script>
+</head>
+<body>
+    <div class="card">
+        <h1>Desempeño estudiantil</h1>
+        <form id="calcular">
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Pliego Mendez Alondra" required>
+                <label for="calificacion">Calificación:</label>
+                <input type="number" min="0" id="calificacion" name="calificacion" placeholder="Ej: 9.5" required>
+                <button type="button" onclick="Agregar()">Agregar estudiante</button>
+            </div>
+            <p class="error" id="mensajeError"></p>
+            <button type="button" onclick="Calcular()">Calcular</button>
+            <div class="campo">
+                <label for="promedio">Calificación promedio estudiantil:</label>
+                <input type="text" id="promedio" name="promedio" readonly>
+                <label for="alta">Estudiante con calificación más alta:</label>
+                <input type="text" id="alta" name="alta" readonly>
+                <label for="baja">Estudiante con calificación más baja:</label>
+                <input type="text" id="baja" name="baja" readonly>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

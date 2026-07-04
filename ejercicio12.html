@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesos MEX a Dolares US</title>
+    <script src="js/ejercicio12.js"></script>
+    <link rel="stylesheet" href="css/ejercicio12.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Convertidor de MXN a USD</h1>
+        <form id="convertidor">
+            <div class="campo">
+                <label for="MXN">MXN:</label>
+                <input type="number" id="MXN" name="MXN" placeholder="Ej: 10" required>
+            </div>
+            <p class="error" id="mensajeError"></p>
+            <button type="button" onclick="convertir()">Convertir</button>
+            <div class="campo">
+                <label for="USD">USD:</label>
+                <input type="text" id="USD" name="USD" readonly>
+            </div>
+        </form>
+    </div>
+</body>

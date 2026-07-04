@@ -1,0 +1,69 @@
+body {
+            font-family: 'tahoma', sans-serif;
+            background: #f2f5f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: #649c00;
+            padding: 20px 23.5px;
+            border-radius: 45px;
+            box-shadow: 0 4px 15px rgba(220, 255, 255, 0.603);
+            width: 520px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            color: #ffffff;
+            margin-bottom: 1.5rem;
+        }
+        .campo {
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            font-size: 15px;
+            color: #ffffff;
+            margin-bottom: 9px;
+        }
+        input {
+            width: 100%;
+            padding: 6px 10px;
+            border: 1px solid #535439;
+            border-radius: 6px;
+            font-size: 15px;
+            box-sizing: border-box;
+        }
+        input[readonly] {
+            background-color: #ffffff;
+            font-weight: normal;
+            color: #000000;
+        }
+        button {
+            width: 100%;
+            padding: 7px;
+            background-color: #a9ba21;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 17px;
+            cursor: pointer;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            transition: background 0.2s;
+        }
+        button:hover {
+            background-color: #e8db64;
+        }
+        .error {
+            color: #ffffdf;
+            font-size: 15px;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            min-height: 15px;
+            font-family: 'tahoma', sans-serif;
+        }
