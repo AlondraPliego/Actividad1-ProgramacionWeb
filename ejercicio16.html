@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/ejercicio16.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="card">
+        <h1>Calculadora</h1>
+        <form id="calcular">
+            <div class="campo">
+                <label for="num1">1°:</label>
+                <input type="number" id="numero1" name="num1" placeholder="Ej: 5" required>
+                <label for="num2">2°:</label>
+                <input type="number" id="numero2" name="num2" placeholder="Ej: 5" required>
+                <label for="resultado">=</label>
+                <input type="number" id="res" name="resultado" readonly>
+            </div>
+            <div class="botones">
+                <button type="button" onclick="calcularOperacion('suma')"><img src="img/suma.png"></button>
+                <button type="button" onclick="calcularOperacion('resta')"><img src="img/resta.png"></button>
+                <button type="button" onclick="calcularOperacion('multiplicacion')"><img src="img/multiplicacion.png"></button>
+                <button type="button" onclick="calcularOperacion('division')"><img src="img/division.png"></button>  
+            </div>
+        </form>
+    </div>
+
+    <script src="js/ejercicio16.js"></script>
+</body>
+</html>

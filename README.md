@@ -16,6 +16,9 @@ La actividad presentada es la realización de ejercicios con los componentes bá
 13. **Ejercicio 13:** Uso de condiciones en JS para determinar si una persona de determinado rango de edad puede votar o no.
 14. **Ejercicio 14:** Inicio de uso de arreglos básicos en JS, determinar un numero mayor, menor y promedio.
 15. **Ejercicio 15:** Utilización de arreglos en JS para calcular y buscar el nombre del estudiante, la calificación más alta, baja y el promedio general.
+16. **Ejercicio 16:** 
+17. **Ejercicio 17:** 
+18. **Ejercicio 18:** 
 ## Cómo ver el proyecto
 
 La página está publicada con GitHub Pages en:
